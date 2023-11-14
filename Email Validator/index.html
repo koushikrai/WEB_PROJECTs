@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>E-validX. - Email Validator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img src="img/Logo.svg" width="120px" alt="img.svg" />
+        </div>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Verify Your Email</h1>
+
+        <form action="/submit" method="post">
+          <!-- Text input for username -->
+          <input
+            placeholder="Enter your Email"
+            type="text"
+            id="username"
+            name="username"
+            required
+          />
+          
+         
+          <!-- Submit button (if required)-->
+          <input id="submitBtn" class="btn" type="submit" value="Submit" />
+        </form>
+        <br /><br />
+        <hr></hr>
+      </div>
+ 
+      <div class="container">
+        <h2>Your Results</h2>
+        <div id="resultConst">
+         
+        </div>
+      </div>
+    </main>
+    <footer>Copyright | ValidX.com | All Rights reserved</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
