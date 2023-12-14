@@ -1,0 +1,226 @@
+/* fade in transition for images
+/*changing collage of pictures
+background: linear-gradient(0deg, #16105A 0%, #512C86 40.36%, #8F4BBF 94.96%);
+*/
+@import url("https://fonts.googleapis.com/css2?family=Moul&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Moul&family=Mystery+Quest&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(7, 3, 33);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+body hr {
+  margin: 110px;
+  width: 1050px;
+  margin-left: 235px;
+}
+
+.left span img {
+
+  width:300px
+}
+
+.left img{
+  margin-top: -135px;
+  margin-right: -200px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 500px;
+  background-color: #8f4bbf 80%;
+}
+
+nav span h1 {
+  font-family: "Mystery Quest", sans-serif;
+  background: linear-gradient(
+    99deg,
+    #eb00ff 1.72%,
+    rgba(255, 0, 0, 0.91) 76.75%,
+    rgba(244, 0, 135, 0.96) 76.75%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav ul li a:hover {
+  color: rgb(160, 160, 160);
+  font-size: 1.03rem;
+}
+
+main hr {
+  margin: -30px;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 35px;
+}
+
+.left {
+  font-size: 2rem;
+}
+.left span {
+  font-size: 4rem;
+}
+
+.left span pre {
+  padding-top: 70px;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 80px 0px;
+}
+
+.firstSection > div {
+  width: 30%;
+}
+
+.leftSection {
+  font-size: 3rem;
+}
+
+.leftSection .buttons {
+  padding: 20px 0;
+}
+.leftSection .btn {
+  padding: 12px;
+  background: #000234;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.rightSection {
+  height: 500px;
+  width: 100%;
+  background-image: url(../kidosPics/IMG-20231211-WA0035.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: 5s;
+
+  animation-name: animate;
+  animation-direction: alternate-reverse;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes animate {
+  0% {
+    background-image: url(../kidosPics/IMG-20231211-WA0021.jpg);
+  }
+  10% {
+    background-image: url(../kidosPics/IMG-20231211-WA0025.jpg);
+  }
+  20% {
+    background-image: url(../kidosPics/IMG-20231211-WA0029.jpg);
+  }
+  30% {
+    background-image: url(../kidosPics/IMG-20231211-WA0031.jpg);
+  }
+  40% {
+    background-image: url(../kidosPics/IMG-20231211-WA0041.jpg);
+  }
+  0% {
+    background-image: url(../kidosPics/IMG-20231211-WA0050.jpg);
+  }
+  50% {
+    background-image: url(../kidosPics/IMG-20231211-WA0049.jpg);
+  }
+  60% {
+    background-image: url(../kidosPics/IMG-20231211-WA0051.jpg);
+  }
+  70% {
+    background-image: url(../kidosPics/IMG-20231211-WA0067.jpg);
+  }
+  80% {
+    background-image: url(../kidosPics/IMG-20231211-WA0070.jpg);
+  }
+  90% {
+    background-image: url(../kidosPics/IMG-20231211-WA0073.jpg);
+  }
+  100% {
+    background-image: url(../kidosPics/IMG-20231211-WA0080.jpg);
+  }
+  110% {
+    background-image: url(../kidosPics/IMG-20231211-WA0095.jpg);
+  }
+  120% {
+    background-image: url(../kidosPics/IMG-20231211-WA00100.jpg);
+  }
+  130% {
+    background-image: url(../kidosPics/IMG-20231211-WA0097.jpg);
+  }
+  140% {
+    background-image: url(../kidosPics/IMG-20231211-WA0018.jpg);
+  }
+}
+
+.rightSection img {
+  width: 100%;
+  display: flex;
+  padding-left: 170px;
+}
+.purple {
+  background: radial-gradient(
+    414.18% 75.3% at 13.16% 23.23%,
+    rgba(105, 82, 255, 0.91) 0.03%,
+    #ed1aff 42.19%,
+    rgba(74, 5, 255, 0.93) 42.88%,
+    #eb5ff8 63.71%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Nova Square;
+  display: flex;
+  width: 420px;
+}
+.gradient {
+  margin: 14px;
+  font-family: "Moul", serif;
+}
+.gradient div {
+  width: 540px;
+}
+
+#element {
+  color: rgb(107, 0, 107);
+}
+
+.secondSection h1 {
+  font-family: "Moul", serif;
+  margin-left: 110px;
+  font-size: 2rem;
+}
+.imageGallery {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.secondSection .imageGallery {
+  width: 300px;
+  margin: 100px auto 0;
+  overflow: visible;
+}
+
+.imageGallery img{
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3)) ;
+}
