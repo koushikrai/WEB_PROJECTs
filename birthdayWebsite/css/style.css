@@ -123,52 +123,52 @@ main hr {
 }
 @keyframes animate {
   0% {
-    background-image: url(../kidosPics/IMG-20231211-WA0021.jpg);
+    background-image: url(../);
   }
   10% {
-    background-image: url(../kidosPics/IMG-20231211-WA0025.jpg);
+    background-image: url(../);
   }
   20% {
-    background-image: url(../kidosPics/IMG-20231211-WA0029.jpg);
+    background-image: url(../);
   }
   30% {
-    background-image: url(../kidosPics/IMG-20231211-WA0031.jpg);
+    background-image: url(../);
   }
   40% {
-    background-image: url(../kidosPics/IMG-20231211-WA0041.jpg);
+    background-image: url(../);
   }
   0% {
-    background-image: url(../kidosPics/IMG-20231211-WA0050.jpg);
+    background-image: url(../);
   }
   50% {
-    background-image: url(../kidosPics/IMG-20231211-WA0049.jpg);
+    background-image: url(../pic.jpg);
   }
   60% {
-    background-image: url(../kidosPics/IMG-20231211-WA0051.jpg);
+    background-image: url(../pic.jpg);
   }
   70% {
-    background-image: url(../kidosPics/IMG-20231211-WA0067.jpg);
+    background-image: url(../pic.jpg);
   }
   80% {
-    background-image: url(../kidosPics/IMG-20231211-WA0070.jpg);
+    background-image: url(../pic.jpg);
   }
   90% {
-    background-image: url(../kidosPics/IMG-20231211-WA0073.jpg);
+    background-image: url(../pic.jpg);
   }
   100% {
-    background-image: url(../kidosPics/IMG-20231211-WA0080.jpg);
+    background-image: url(../pic.jpg);
   }
   110% {
-    background-image: url(../kidosPics/IMG-20231211-WA0095.jpg);
+    background-image: url(../pic.jpg);
   }
   120% {
-    background-image: url(../kidosPics/IMG-20231211-WA00100.jpg);
+    background-image: url(../pic.jpg);
   }
   130% {
-    background-image: url(../kidosPics/IMG-20231211-WA0097.jpg);
+    background-image: url(../pic.jpg);
   }
   140% {
-    background-image: url(../kidosPics/IMG-20231211-WA0018.jpg);
+    background-image: url(../pic.jpg);
   }
 }
 
